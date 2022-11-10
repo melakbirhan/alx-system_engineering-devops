@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# displays Best School 10 times but for the 9th iteration
+
+COUNTER=0
+
+while [ $COUNTER -lt 10 ]
+do
+  if [ $COUNTER -eq 9 ]
+  then
+	  echo "Hi"
+  fi
+	  echo "Best School"
+  (( COUNTER++ ))
+done
